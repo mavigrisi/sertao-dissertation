@@ -1,0 +1,16 @@
+{
+  "_readme": "Dados de exemplo para a rede do Capítulo 5. Substituir por dados reais da pesquisa. Tipos de nó sugeridos: pessoa, texto, lugar, som.",
+  "nodes": [
+    { "data": { "id": "n1", "label": "Poesia popular nordestina", "type": "texto" } },
+    { "data": { "id": "n2", "label": "Cristão-novo (exemplo)", "type": "pessoas" } },
+    { "data": { "id": "n3", "label": "Sertão do Pajeú", "type": "lugar" } },
+    { "data": { "id": "n4", "label": "Muwaššaḥa (exemplo)", "type": "texto" } },
+    { "data": { "id": "n5", "label": "Cantoria (registro sonoro)", "type": "som" } }
+  ],
+  "edges": [
+    { "data": { "source": "n2", "target": "n3" } },
+    { "data": { "source": "n3", "target": "n1" } },
+    { "data": { "source": "n1", "target": "n5" } },
+    { "data": { "source": "n2", "target": "n4" } }
+  ]
+}

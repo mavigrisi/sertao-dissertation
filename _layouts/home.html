@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<section class="hero">
+  <div class="hero-media">
+    {% if page.hero_audio %}
+      <div id="hero-waveform"></div>
+      <p class="label">{{ page.hero_audio_caption }}</p>
+    {% else %}
+      <p class="label">[ imagem/áudio de abertura — cantoria ou repente ]</p>
+    {% endif %}
+  </div>
+  <div class="hero-text">
+    <h1>{{ site.title }}</h1>
+    <p class="subtitle">{{ site.subtitle }}</p>
+    <div class="cta-row">
+      <a class="cta" href="{{ '/capitulos/' | relative_url }}">começar a ler →</a>
+      <a class="cta" href="{{ '/capitulos/redes-de-poesia/' | relative_url }}">explorar a rede →</a>
+    </div>
+  </div>
+</section>
+
+<section class="entry-modes">
+  <a href="{{ '/capitulos/' | relative_url }}">
+    <span class="ico"></span>por tema
+    <span class="label">cristãos-novos · Al-Andalus · poesia</span>
+  </a>
+  <a href="{{ '/capitulos/' | relative_url }}#textos-guia">
+    <span class="ico"></span>por texto-guia
+    <span class="label">um poema por capítulo</span>
+  </a>
+  <a href="{{ '/linha-do-tempo/' | relative_url }}">
+    <span class="ico"></span>por linha do tempo
+    <span class="label">séc. XI → hoje</span>
+  </a>
+</section>
+
+<section class="content-block">
+  {{ content }}
+</section>
