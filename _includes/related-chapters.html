@@ -1,0 +1,13 @@
+{% if page.relacionados %}
+<div class="related-box">
+  <span class="label">conexões relacionadas</span>
+  <div>
+    {% for slug in page.relacionados %}
+      {% assign related = site.chapters | where: "slug", slug | first %}
+      {% if related %}
+        <a class="chip" href="{{ related.url | relative_url }}">{{ related.numero }} · {{ related.title }}</a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+{% endif %}

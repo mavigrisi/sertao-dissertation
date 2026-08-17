@@ -1,0 +1,45 @@
+title: "O sertão vai dar no mediterrâneo"
+subtitle: "cristãos-novos, sertão e ecos andaluzes na poesia popular nordestina"
+author: "Maria Vitória de Rezende Grisi"
+description: >
+  Plataforma digital da tese de doutorado. Explora a presença de cristãos-novos
+  nos sertões coloniais de Pernambuco e Paraíba e sua relação com a formação da
+  poesia popular nordestina, em diálogo comparativo (não genealógico) com as
+  tradições poéticas de Al-Andalus.
+
+baseurl: ""     # ajustar para "/nome-do-repositorio" ao publicar no GitHub Pages de um repositório de projeto
+url: ""         # ex.: "https://usuario.github.io"
+
+# --- Collections ---
+collections:
+  chapters:
+    output: true
+    permalink: /capitulos/:slug/
+
+defaults:
+  - scope:
+      path: ""
+      type: "chapters"
+    values:
+      layout: "chapter"
+
+# --- Build ---
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-scholar
+
+# jekyll-scholar (bibliografia) — arquivo .bib fica em _bibliography/references.bib
+scholar:
+  style: modern-language-association
+  source: _bibliography
+  bibliography: references.bib
+  bibliography_template: _bibliography/citation.html
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules

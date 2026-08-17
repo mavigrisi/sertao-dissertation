@@ -1,0 +1,9 @@
+{% if page.texto_guia %}
+<div class="guide-text-box">
+  <span class="label">texto-guia deste capítulo</span>
+  <p>{{ page.texto_guia }}</p>
+  {% if page.texto_guia_midia %}
+    <div class="media-mini">[ mídia: {{ page.texto_guia_midia }} ]</div>
+  {% endif %}
+</div>
+{% endif %}

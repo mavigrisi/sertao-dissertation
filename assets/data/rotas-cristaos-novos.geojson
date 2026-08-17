@@ -1,0 +1,16 @@
+{
+  "_readme": "Dados de exemplo (placeholder) — substituir por rotas/pontos reais levantados na pesquisa (Biblioteca Nacional de Portugal, Library of Congress).",
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "nome": "Recife (exemplo)", "grupo": "cristão-novo" },
+      "geometry": { "type": "Point", "coordinates": [-34.8811, -8.0476] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "nome": "Sertão do Pajeú (exemplo)", "grupo": "cristão-novo" },
+      "geometry": { "type": "Point", "coordinates": [-37.4667, -7.7667] }
+    }
+  ]
+}
