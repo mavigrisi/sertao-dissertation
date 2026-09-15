@@ -96,6 +96,33 @@ main{max-width:1000px; margin:0 auto; padding:0 32px;}
 
 /* chapter list */
 .chapter-index{list-style:none; padding:0;}
+
+/* nota pessoal (home) */
+.personal-note{
+  max-width:640px;
+  margin:0 auto;
+  padding:48px 0 12px;
+}
+.personal-note .note-label{
+  font-family:"Helvetica Neue",Arial,sans-serif;
+  font-size:12px;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+  color:var(--accent);
+  margin:0 0 16px;
+}
+.personal-note p{
+  border-left:3px solid var(--accent);
+  padding-left:22px;
+  font-size:16px;
+  line-height:1.75;
+  margin:0;
+}
+
+.note-nav{
+  text-align:center;
+  padding:8px 0 56px;
+}
 .chapter-index li{padding:14px 0; border-bottom:1px solid var(--line-light);}
 .chapter-index a{font-size:18px;}
 
