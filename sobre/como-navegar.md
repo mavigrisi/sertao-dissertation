@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Como navegar esta página"
-permalink: /sobre/como-navegar/
+title: "Sobre a plataforma"
+permalink: /sobre/sobre-a-plataforma/
 ---
 
-# Como navegar esta página
+# Como navegar esta plataforma
 
 *[a desenvolver]*
