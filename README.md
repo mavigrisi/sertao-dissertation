@@ -1,4 +1,4 @@
-# Plataforma digital da tese — "O sertão vai dar no mediterrâneo"
+# Plataforma digital da tese — "E o mar virou sertão"
 
 Site Jekyll com os 6 capítulos definidos no planejamento da tese, estrutura de navegação por tema/texto-guia/linha do tempo, e a base para a rede de conexões (Cytoscape.js) e os mapas (Leaflet.js).
 
